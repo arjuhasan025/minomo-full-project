@@ -1,0 +1,228 @@
+/*common css start*/
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 20px 0;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo{
+	float: left;
+	margin-top: 12px;
+	width: 12%;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 67%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: .33s linear;
+    color: #626262;
+}
+.menu ul li:last-child a{
+	margin-right:0 ;
+}
+.menu ul li a:hover{
+border-bottom: 2px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b-img{}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
+/*article start*/
+.article{
+	padding: 100px 0 30px;
+}
+.container2{
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+.a-content{}
+.c-light{
+	margin: 0;
+	font-family: "ubunto", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c-title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+    font-weight: 400;
+}
+.c-text{
+	margin: 0;
+	line-height: 24px;
+}
+.mt{
+	margin-top:45px }
+/*article end*/
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.blog-item{
+	margin-top: 70px;
+	box-sizing: border-box;
+	float: left;
+	width: 47%;
+}
+.blog-image{
+	margin-bottom: 20px;
+}
+.blog-image img{
+	width: 100%;
+}
+.blog-item:nth-child(even){
+	margin-left:6% ;
+}
+/*blog end*/
+/*news start*/
+.news{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.singup{
+	text-align: center;
+}
+.s-h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: #333333;
+}
+.s-form{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.s-form input{
+	font-family: playfair display, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	width: 365px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 15px;
+
+}
+.s-form input:focus{
+	outline: 0;
+}
+.s-form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s-form button:focus{
+	outline: 0;
+}
+.s-form button img{}
+/*news end*/
+/*blog2 start*/
+
+/*blog2 end*/
+/*button start*/
+.load {
+	text-align: center;
+	padding-bottom:100px ;
+}
+.load-b{
+	padding: 14px 40px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: sans-serif;
+	font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .33s linear;
+}
+.load-b:hover{
+	background-color: #626262;
+	color: white;
+}
+/*button end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+.pages{
+	float: left;
+	width: 35%;
+}
+.pages ul{
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+.pages ul li{
+	float: left;
+	list-style: none;
+}
+.pages ul li a{
+	margin-right: 15px;
+	display: inline-block;
+	color: #000000;
+    text-decoration	: none;
+}
+.social{
+	float: right;
+	width: 35%;
+}
+.social ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.social ul li{
+	float: left;
+list-style: none;	
+}
+.social ul li span{
+	color: #000000;
+margin-left: 15px}
+.social ul li a{
+    display: inline-block;
+	margin-left: 15px; 
+	text-decoration:none;
+}
+/*footer end*/
